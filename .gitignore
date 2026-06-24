@@ -1,8 +1,0 @@
-CLAUDE.md
-.claude/
-__pycache__/
-*.pyc
-.idea/
-build/
-dist/
-*.spec
