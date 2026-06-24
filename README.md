@@ -16,7 +16,6 @@
 2. **📊 计算培养** — 点击右侧 **[计算培养]** 按钮，跳转到培养规划页面查看材料缺口
 3. 结果页包含：需培养角色数、材料缺口柱状图、每个角色的详细缺口（展开查看升阶/升级/技能材料）
 
-> 配队功能暂时禁用，配队模板改良中...
 
 ### 提示
 
@@ -38,14 +37,6 @@
 ```bash
 pip install fastapi uvicorn pydantic
 ```
-
-依赖及已验证版本：
-
-| 包 | 版本 |
-|---|---|
-| fastapi | 0.115.6 |
-| uvicorn | 0.34.0 |
-| pydantic | 2.10.3 |
 
 > 项目数据存储在本地 JSON 文件中。
 
@@ -70,9 +61,9 @@ python main.py
 | `sinners.json` | 153 个禁闭者静态数据 |
 | `materials.json` | 76 个材料定义 |
 | `phase_cost.json` / `level_cost.json` / `skill_cost.json` | 升阶/升级/技能消耗表 |
-| `team_templates.json` | 配队模板（改良中） |
+| `team_templates.json` | 配队模板(仅供参考) |
 | `materials_use_way.json` | 角色→材料查找表（仅狂级完整）危级和普级暂时未收集 |
-| `my_roster.json` | 用户 BOX 数据（运行时读写） |
+| `my_roster.json` | 用户 BOX 数据 |
 
 ---
 
@@ -83,7 +74,7 @@ pip install pyinstaller
 pyinstaller siner_planner.spec
 ```
 
-产物在 `dist/siner_planner.exe`。打包配置见 `siner_planner.spec`。
+产物在 `dist/siner_planner.exe`。
 
 ---
 
