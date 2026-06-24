@@ -1,0 +1,23 @@
+{
+  "roster": [
+    {
+      "sinner_id": "sinner_005",
+      "current_phase": 0,
+      "current_level": 1,
+      "current_skills": [
+        1,
+        1,
+        1,
+        1
+      ],
+      "target_phase": 3,
+      "target_level": 90,
+      "target_skills": [
+        7,
+        7,
+        7,
+        7
+      ]
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "狂": {
+    "1_to_2": {"skill_module_I": 8, "grey_material": 6, "mat_discoin": 4000},
+    "2_to_3": {"skill_module_I": 16, "grey_material": 10, "mat_discoin": 6000},
+    "3_to_4": {"skill_module_II": 10, "green_material": 6, "mat_discoin": 8500},
+    "4_to_5": {"skill_module_II": 16, "green_material": 10, "mat_discoin": 12800},
+    "5_to_6": {"skill_module_III": 8, "blue_material": 6, "mat_discoin": 19200},
+    "6_to_7": {"skill_module_III": 10, "blue_material": 8, "mat_discoin": 30000},
+    "7_to_8": {"skill_module_IV": 8, "purple_material": 4, "inner_sea": 1, "mat_discoin": 86000},
+    "8_to_9": {"skill_module_IV": 10, "purple_material": 6, "inner_sea": 2, "mat_discoin": 175000},
+    "9_to_10": {"skill_module_IV": 15, "purple_material": 8, "inner_sea": 2, "consciousness_crystal": 1, "mat_discoin": 260000}
+  },
+  "危": {
+    "1_to_2": {"mat_067": 1, "mat_discoin": 2000},
+    "2_to_3": {"mat_067": 2, "mat_discoin": 4000},
+    "3_to_4": {"mat_068": 1, "mat_discoin": 6000},
+    "4_to_5": {"mat_068": 2, "mat_discoin": 10000},
+    "5_to_6": {"mat_069": 1, "mat_discoin": 15000},
+    "6_to_7": {"mat_069": 2, "mat_discoin": 20000},
+    "7_to_8": {"mat_070": 1, "mat_discoin": 30000},
+    "8_to_9": {"mat_070": 2, "mat_discoin": 45000},
+    "9_to_10": {"mat_074": 3, "mat_discoin": 60000}
+  },
+  "普": {
+    "1_to_2": {"mat_067": 1, "mat_discoin": 1500},
+    "2_to_3": {"mat_067": 1, "mat_discoin": 3000},
+    "3_to_4": {"mat_068": 1, "mat_discoin": 4500},
+    "4_to_5": {"mat_068": 1, "mat_discoin": 8000},
+    "5_to_6": {"mat_069": 1, "mat_discoin": 12000},
+    "6_to_7": {"mat_069": 1, "mat_discoin": 16000},
+    "7_to_8": {"mat_070": 1, "mat_discoin": 25000},
+    "8_to_9": {"mat_070": 1, "mat_discoin": 35000},
+    "9_to_10": {"mat_074": 2, "mat_discoin": 45000}
+  }
+}

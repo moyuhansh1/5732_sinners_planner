@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>无期迷途 - 配队养成规划器</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- ===== 加载遮罩 ===== -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">正在加载数据...</div>
+    </div>
+
+    <!-- ===== 顶部标题栏 ===== -->
+    <header class="app-header">
+        <h1 class="app-title">无期迷途 · 配队养成规划器</h1>
+        <span class="app-version">v1.0</span>
+    </header>
+
+    <!-- ===== Tab导航 ===== -->
+    <nav class="tab-nav" id="tabNav" role="tablist" aria-label="主要功能">
+        <button class="tab-btn active" role="tab" aria-selected="true" aria-controls="panelBox" id="tabBox" data-tab="box">📋 角色BOX</button>
+        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panelTeam" id="tabTeam" data-tab="team">⚔️ 配队结果</button>
+        <button class="tab-btn" role="tab" aria-selected="false" aria-controls="panelPlan" id="tabPlan" data-tab="plan">📊 培养规划</button>
+    </nav>
+
+    <!-- ===== Tab1: 角色BOX ===== -->
+    <section class="tab-panel active" id="panelBox" role="tabpanel" aria-labelledby="tabBox">
+        <div class="box-layout">
+            <!-- 左侧：禁闭者图鉴 -->
+            <div class="box-left">
+                <h2>禁闭者图鉴 <span style="color: var(--text-muted); font-size: 0.55em; font-weight: 400;">（危级和普级禁闭者的养成材料数据暂缺）</span></h2>
+                <!-- 筛选栏 -->
+                <div class="filter-bar" id="filterBar">
+                    <div class="filter-group">
+                        <span class="filter-label">稀有度</span>
+                        <button class="filter-btn active" data-filter="rarity" data-value="all">全部</button>
+                        <button class="filter-btn" data-filter="rarity" data-value="狂">狂</button>
+                        <button class="filter-btn" data-filter="rarity" data-value="危">危</button>
+                        <button class="filter-btn" data-filter="rarity" data-value="普">普</button>
+                    </div>
+                    <div class="filter-group">
+                        <span class="filter-label">职业</span>
+                        <button class="filter-btn active" data-filter="role" data-value="all">全部</button>
+                        <button class="filter-btn" data-filter="role" data-value="狂暴">狂暴</button>
+                        <button class="filter-btn" data-filter="role" data-value="精准">精准</button>
+                        <button class="filter-btn" data-filter="role" data-value="异能">异能</button>
+                        <button class="filter-btn" data-filter="role" data-value="启迪">启迪</button>
+                        <button class="filter-btn" data-filter="role" data-value="诡秘">诡秘</button>
+                        <button class="filter-btn" data-filter="role" data-value="坚韧">坚韧</button>
+                    </div>
+                    <div class="filter-group">
+                        <span class="filter-label">伤害</span>
+                        <button class="filter-btn active" data-filter="damage" data-value="all">全部</button>
+                        <button class="filter-btn" data-filter="damage" data-value="物理">物理</button>
+                        <button class="filter-btn" data-filter="damage" data-value="法术">法术</button>
+                        <button class="filter-btn" data-filter="damage" data-value="无">无</button>
+                    </div>
+                </div>
+                <!-- 图鉴网格 -->
+                <div class="catalog-grid" id="catalogGrid"></div>
+            </div>
+
+            <!-- 右侧：我的BOX -->
+            <div class="box-right">
+                <div class="box-header">
+                    <h2>我的BOX</h2>
+                    <span class="box-count" id="boxCount">0个角色</span>
+                    <button class="btn-sm" id="btnExportBox" title="导出BOX为JSON文件" style="margin-left:auto;">📥 导出</button>
+                </div>
+                <div class="roster-list" id="rosterList">
+                    <div class="empty-hint">👆 点击上方图鉴中的 [添加] 按钮将角色加入BOX</div>
+                </div>
+                <div class="box-actions">
+                    <button class="btn btn-danger" id="btnClearBox">🗑️ 清空BOX</button>
+                    <button class="btn btn-accent" id="btnCalcCultivate">📊 计算培养</button>
+                    <button class="btn btn-primary" id="btnStartPlan">🚀 开始配队</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Tab2: 配队结果 ===== -->
+    <section class="tab-panel" id="panelTeam" role="tabpanel" aria-labelledby="tabTeam">
+        <div class="team-disclaimer">⚠️ 配队结果仅供参考，请根据实际情况调整</div>
+        <div class="team-controls">
+            <button class="btn btn-secondary" id="btnRebuild">🔄 重新配队</button>
+        </div>
+        <div class="team-grid" id="teamGrid">
+            <div class="empty-hint" style="grid-column:1/-1;">点击「开始配队」按钮查看配队结果</div>
+        </div>
+    </section>
+
+    <!-- ===== Tab3: 培养规划 ===== -->
+    <section class="tab-panel" id="panelPlan" role="tabpanel" aria-labelledby="tabPlan">
+        <!-- 导出按钮 -->
+        <div class="plan-toolbar" id="planToolbar" style="text-align:right;margin-bottom:10px;">
+            <button class="btn btn-secondary" id="btnCopyPlan" style="display:none;">📋 复制培养报告</button>
+        </div>
+        <!-- 概览卡片 -->
+        <div class="overview-cards" id="overviewCards"></div>
+        <!-- 材料缺口图表 -->
+        <div class="plan-section">
+            <h3>📦 材料缺口总览</h3>
+            <div class="material-chart" id="materialChart"></div>
+        </div>
+        <!-- 角色详情 -->
+        <div class="plan-section">
+            <h3>👤 角色详细缺口</h3>
+            <div class="sinner-details" id="sinnerDetails"></div>
+        </div>
+    </section>
+
+    <!-- ===== 添加/编辑角色弹窗 ===== -->
+    <div class="modal-overlay" id="modalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal-card" id="modalCard">
+            <h3 id="modalTitle">添加角色</h3>
+            <div class="modal-body">
+                <div class="form-row">
+                    <label>角色</label>
+                    <span class="form-static" id="modalSinnerName">—</span>
+                </div>
+                <!-- 当前练度 -->
+                <div class="form-section-title">当前练度</div>
+                <div class="form-row">
+                    <label for="modalPhase">当前等阶</label>
+                    <select id="modalPhase">
+                        <option value="0">0阶</option>
+                        <option value="1">1阶</option>
+                        <option value="2">2阶</option>
+                        <option value="3">3阶</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <label for="modalLevel">当前等级</label>
+                    <input type="number" id="modalLevel" min="1" max="20" value="1">
+                    <span class="level-hint" id="modalLevelHint">范围: 1-20</span>
+                </div>
+                <div class="form-row">
+                    <label>当前技能</label>
+                    <div class="skill-inputs">
+                        <div><label for="skill1">技1</label><input type="number" id="skill1" class="skill-lv" min="1" max="10" value="1"></div>
+                        <div><label for="skill2">技2</label><input type="number" id="skill2" class="skill-lv" min="1" max="10" value="1"></div>
+                        <div><label for="skill3">技3</label><input type="number" id="skill3" class="skill-lv" min="1" max="10" value="1"></div>
+                        <div><label for="skill4">技4</label><input type="number" id="skill4" class="skill-lv" min="1" max="10" value="1"></div>
+                    </div>
+                </div>
+                <!-- 目标练度 -->
+                <div class="form-section-title">目标练度</div>
+                <div class="form-row">
+                    <label for="modalTargetPhase">目标等阶</label>
+                    <select id="modalTargetPhase">
+                        <option value="0">0阶</option>
+                        <option value="1">1阶</option>
+                        <option value="2">2阶</option>
+                        <option value="3" selected>3阶</option>
+                    </select>
+                </div>
+                <div class="form-row">
+                    <label for="modalTargetLevel">目标等级</label>
+                    <input type="number" id="modalTargetLevel" min="71" max="90" value="90">
+                    <span class="level-hint" id="modalTargetLevelHint">范围: 71-90</span>
+                </div>
+                <div class="form-row">
+                    <label>目标技能</label>
+                    <div class="skill-inputs">
+                        <div><label for="targetSkill1">技1</label><input type="number" id="targetSkill1" class="skill-lv target-skill" min="1" max="10" value="7"></div>
+                        <div><label for="targetSkill2">技2</label><input type="number" id="targetSkill2" class="skill-lv target-skill" min="1" max="10" value="7"></div>
+                        <div><label for="targetSkill3">技3</label><input type="number" id="targetSkill3" class="skill-lv target-skill" min="1" max="10" value="7"></div>
+                        <div><label for="targetSkill4">技4</label><input type="number" id="targetSkill4" class="skill-lv target-skill" min="1" max="10" value="7"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" id="btnModalCancel">取消</button>
+                <button class="btn btn-primary" id="btnModalConfirm">确认</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ===== 提示 Toast ===== -->
+    <div class="toast" id="toast" role="alert" aria-live="assertive"></div>
+
+    <!-- JS模块 -->
+    <script src="/js/utils.js"></script>
+    <script src="/js/api.js"></script>
+    <script src="/js/roster.js"></script>
+    <script src="/js/team.js"></script>
+    <script src="/js/plan.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+</html>

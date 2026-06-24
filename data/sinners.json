@@ -1,0 +1,3060 @@
+{
+  "sinners": [
+    {
+      "id": "sinner_001",
+      "name": "离尘",
+      "rarity": "狂",
+      "role": "坚韧",
+      "damage_type": "法术",
+      "tags": ["法术坦克", "技能辅助", "致死免疫"],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {"0": 20, "1": 40, "2": 70, "3": 90}
+    },
+    {
+      "id": "sinner_002",
+      "name": "锈",
+      "rarity": "狂",
+      "role": "坚韧",
+      "damage_type": "物理",
+      "tags": [
+        "物理坦克",
+        "局长能量恢复",
+        "进攻辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_003",
+      "name": "玉骨",
+      "rarity": "狂",
+      "role": "坚韧",
+      "damage_type": "法术",
+      "tags": [
+        "法术坦克",
+        "技能辅助",
+        "护盾",
+        "暴击辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_004",
+      "name": "摩尔",
+      "rarity": "狂",
+      "role": "坚韧",
+      "damage_type": "物理",
+      "tags": [
+        "物理坦克",
+        "护盾辅助",
+        "控制免疫"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_005",
+      "name": "瓦尼菈",
+      "rarity": "狂",
+      "role": "坚韧",
+      "damage_type": "物理",
+      "tags": [
+        "物理坦克",
+        "自我治疗",
+        "防守增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_006",
+      "name": "罗睺",
+      "rarity": "狂",
+      "role": "坚韧",
+      "damage_type": "物理",
+      "tags": [
+        "物理坦克",
+        "物伤辅助",
+        "自我治疗",
+        "致死免疫"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_007",
+      "name": "嗷呜",
+      "rarity": "狂",
+      "role": "坚韧",
+      "damage_type": "物理",
+      "tags": [
+        "物理坦克",
+        "暴击辅助",
+        "进攻辅助",
+        "防守增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_008",
+      "name": "迪蒙",
+      "rarity": "狂",
+      "role": "坚韧",
+      "damage_type": "物理",
+      "tags": [
+        "物理坦克",
+        "护盾辅助",
+        "进攻辅助",
+        "防守增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_009",
+      "name": "阿依果",
+      "rarity": "危",
+      "role": "坚韧",
+      "damage_type": "法术",
+      "tags": [
+        "法术坦克",
+        "法伤辅助",
+        "进攻辅助",
+        "防守辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_010",
+      "name": "露米娜",
+      "rarity": "危",
+      "role": "坚韧",
+      "damage_type": "法术",
+      "tags": [
+        "法术坦克",
+        "召唤物辅助",
+        "防守增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_011",
+      "name": "希格林德",
+      "rarity": "危",
+      "role": "坚韧",
+      "damage_type": "真实",
+      "tags": [
+        "坦克",
+        "特殊能量恢复",
+        "特殊辅助",
+        "防守增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_012",
+      "name": "卢米尼塔",
+      "rarity": "危",
+      "role": "坚韧",
+      "damage_type": "物理",
+      "tags": [
+        "物理坦克",
+        "减速",
+        "眩晕",
+        "特殊控制",
+        "进攻辅助",
+        "防守增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_013",
+      "name": "安那苏",
+      "rarity": "危",
+      "role": "坚韧",
+      "damage_type": "物理",
+      "tags": [
+        "物理坦克",
+        "伤害分摊",
+        "物伤辅助",
+        "进攻辅助",
+        "防守增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_014",
+      "name": "多芙",
+      "rarity": "危",
+      "role": "坚韧",
+      "damage_type": "法术",
+      "tags": [
+        "法术坦克",
+        "护盾辅助",
+        "法伤辅助",
+        "防守增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_015",
+      "name": "戈蓝",
+      "rarity": "危",
+      "role": "坚韧",
+      "damage_type": "物理",
+      "tags": [
+        "物理坦克",
+        "物伤辅助",
+        "自我治疗",
+        "防守增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_016",
+      "name": "妮诺",
+      "rarity": "危",
+      "role": "坚韧",
+      "damage_type": "物理",
+      "tags": [
+        "物理坦克",
+        "眩晕",
+        "防守增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_017",
+      "name": "尤尼",
+      "rarity": "危",
+      "role": "坚韧",
+      "damage_type": "物理",
+      "tags": [
+        "物理坦克",
+        "防守增幅",
+        "防守辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_018",
+      "name": "李维",
+      "rarity": "危",
+      "role": "坚韧",
+      "damage_type": "物理",
+      "tags": [
+        "物理坦克",
+        "特殊辅助",
+        "自我治疗",
+        "进攻辅助",
+        "防守增幅",
+        "流血队"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_019",
+      "name": "卡瓦卡瓦",
+      "rarity": "危",
+      "role": "坚韧",
+      "damage_type": "物理",
+      "tags": [
+        "物理坦克",
+        "治疗辅助",
+        "防守增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_020",
+      "name": "切尔西伯爵",
+      "rarity": "危",
+      "role": "坚韧",
+      "damage_type": "物理",
+      "tags": [
+        "物理坦克",
+        "石化",
+        "防守增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_021",
+      "name": "辰砂",
+      "rarity": "危",
+      "role": "坚韧",
+      "damage_type": "物理",
+      "tags": [
+        "物理坦克",
+        "护盾辅助",
+        "防守辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_022",
+      "name": "蔻蔻",
+      "rarity": "普",
+      "role": "坚韧",
+      "damage_type": "物理",
+      "tags": [
+        "物理坦克",
+        "防守增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_023",
+      "name": "佩姬",
+      "rarity": "普",
+      "role": "坚韧",
+      "damage_type": "物理",
+      "tags": [
+        "物理坦克",
+        "防守辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_024",
+      "name": "德莫莉",
+      "rarity": "普",
+      "role": "坚韧",
+      "damage_type": "物理",
+      "tags": [
+        "物理坦克",
+        "防守增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_025",
+      "name": "墨菲",
+      "rarity": "狂",
+      "role": "狂暴",
+      "damage_type": "真实",
+      "tags": [
+        "真实伤害",
+        "普攻伤害辅助",
+        "特殊辅助",
+        "进攻辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_026",
+      "name": "啸风",
+      "rarity": "狂",
+      "role": "狂暴",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_027",
+      "name": "西涅克斯",
+      "rarity": "狂",
+      "role": "狂暴",
+      "damage_type": "真实",
+      "tags": [
+        "真实伤害",
+        "真伤辅助",
+        "进攻辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_028",
+      "name": "茉莉",
+      "rarity": "狂",
+      "role": "狂暴",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "减速",
+        "物伤增幅",
+        "特殊辅助",
+        "进攻增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_029",
+      "name": "空条承太郎",
+      "rarity": "狂",
+      "role": "狂暴",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "刷新充能",
+        "时间暂停",
+        "物伤辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_030",
+      "name": "派尔琪雅",
+      "rarity": "狂",
+      "role": "狂暴",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_031",
+      "name": "曜",
+      "rarity": "狂",
+      "role": "狂暴",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出",
+        "特殊辅助",
+        "进攻增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_032",
+      "name": "唐",
+      "rarity": "狂",
+      "role": "狂暴",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "攻速增幅",
+        "特殊辅助",
+        "进攻增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_033",
+      "name": "黛伦",
+      "rarity": "狂",
+      "role": "狂暴",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "暴击增幅",
+        "进攻增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_034",
+      "name": "卓娅",
+      "rarity": "狂",
+      "role": "狂暴",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "恐惧",
+        "控制免疫"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_035",
+      "name": "诺克斯",
+      "rarity": "狂",
+      "role": "狂暴",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "物伤辅助",
+        "群攻",
+        "减防"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_036",
+      "name": "雅可",
+      "rarity": "危",
+      "role": "狂暴",
+      "damage_type": "真实",
+      "tags": [
+        "真实伤害",
+        "眩晕"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_037",
+      "name": "黎莎洛",
+      "rarity": "危",
+      "role": "狂暴",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出",
+        "召唤物辅助",
+        "治疗辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_038",
+      "name": "艾梅斯",
+      "rarity": "危",
+      "role": "狂暴",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "眩晕",
+        "进攻增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_039",
+      "name": "米拉",
+      "rarity": "危",
+      "role": "狂暴",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "特殊辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_040",
+      "name": "瑞思",
+      "rarity": "危",
+      "role": "狂暴",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "普攻增幅",
+        "进攻增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_041",
+      "name": "克里斯蒂娜",
+      "rarity": "危",
+      "role": "狂暴",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "自我治疗",
+        "进攻增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_042",
+      "name": "卡斯洛",
+      "rarity": "危",
+      "role": "狂暴",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "普攻伤害增幅",
+        "眩晕",
+        "进攻增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_043",
+      "name": "莓丝",
+      "rarity": "危",
+      "role": "狂暴",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "攻速增幅",
+        "进攻增幅",
+        "进攻辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_044",
+      "name": "温蒂",
+      "rarity": "危",
+      "role": "狂暴",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "进攻增幅",
+        "群攻"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_045",
+      "name": "九十九",
+      "rarity": "危",
+      "role": "狂暴",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "吸血",
+        "攻速增幅",
+        "致死免疫",
+        "进攻增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_046",
+      "name": "帕加茜",
+      "rarity": "危",
+      "role": "狂暴",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出",
+        "减速",
+        "进攻增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_047",
+      "name": "赫罗",
+      "rarity": "危",
+      "role": "狂暴",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "自我治疗",
+        "防守增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_048",
+      "name": "多莉",
+      "rarity": "危",
+      "role": "狂暴",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_049",
+      "name": "海拉",
+      "rarity": "普",
+      "role": "狂暴",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "自我治疗"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_050",
+      "name": "胡椒",
+      "rarity": "普",
+      "role": "狂暴",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "攻速增幅",
+        "物伤辅助",
+        "进攻增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_051",
+      "name": "澈",
+      "rarity": "普",
+      "role": "狂暴",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "进攻辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_052",
+      "name": "000",
+      "rarity": "狂",
+      "role": "诡秘",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "攻速增幅",
+        "特殊增幅",
+        "进攻增幅",
+        "进攻辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_053",
+      "name": "曼缇斯",
+      "rarity": "狂",
+      "role": "诡秘",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "吸血",
+        "暴击增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_054",
+      "name": "安吉尔",
+      "rarity": "狂",
+      "role": "诡秘",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "特殊增幅",
+        "进攻增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_055",
+      "name": "格芮芙",
+      "rarity": "狂",
+      "role": "诡秘",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "特殊辅助",
+        "进攻辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_056",
+      "name": "幽冕·海拉",
+      "rarity": "狂",
+      "role": "诡秘",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "特殊增幅",
+        "自我治疗",
+        "进攻增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_057",
+      "name": "空条徐伦",
+      "rarity": "狂",
+      "role": "诡秘",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出",
+        "特殊控制"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_058",
+      "name": "白逸",
+      "rarity": "狂",
+      "role": "诡秘",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "暴击增幅",
+        "进攻增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_059",
+      "name": "娜恰",
+      "rarity": "狂",
+      "role": "诡秘",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出",
+        "减速",
+        "普攻伤害增幅",
+        "进攻增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_060",
+      "name": "阿黛拉",
+      "rarity": "狂",
+      "role": "诡秘",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "暴击增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_061",
+      "name": "来生瞳",
+      "rarity": "狂",
+      "role": "诡秘",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出",
+        "刷新充能",
+        "暴击增幅",
+        "进攻增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_062",
+      "name": "赛托",
+      "rarity": "狂",
+      "role": "诡秘",
+      "damage_type": "真实",
+      "tags": [
+        "真实伤害",
+        "真伤增幅",
+        "真伤辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_063",
+      "name": "科希",
+      "rarity": "狂",
+      "role": "诡秘",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "技能伤害增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_064",
+      "name": "琳",
+      "rarity": "危",
+      "role": "诡秘",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "暴击增幅",
+        "暴击辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_065",
+      "name": "优利卡",
+      "rarity": "危",
+      "role": "诡秘",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "召唤物增幅",
+        "进攻增幅",
+        "进攻辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_066",
+      "name": "堇",
+      "rarity": "危",
+      "role": "诡秘",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "特殊辅助",
+        "进攻增幅",
+        "流血队"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_067",
+      "name": "加洛法诺",
+      "rarity": "危",
+      "role": "诡秘",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "进攻增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_068",
+      "name": "麦昆",
+      "rarity": "危",
+      "role": "诡秘",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "召唤物增幅",
+        "特殊增幅",
+        "进攻增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_069",
+      "name": "舒鲁玛",
+      "rarity": "危",
+      "role": "诡秘",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "召唤物增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_070",
+      "name": "诺玛",
+      "rarity": "危",
+      "role": "诡秘",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "减速",
+        "物伤辅助",
+        "眩晕",
+        "解除隐匿"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_071",
+      "name": "艾恩",
+      "rarity": "危",
+      "role": "诡秘",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "物伤增幅",
+        "物伤辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_072",
+      "name": "泰特拉",
+      "rarity": "危",
+      "role": "诡秘",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "暴击增幅",
+        "暴击辅助",
+        "眩晕"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_073",
+      "name": "啵啡",
+      "rarity": "危",
+      "role": "诡秘",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "攻速辅助",
+        "物伤辅助",
+        "特殊能量恢复"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_074",
+      "name": "蓟",
+      "rarity": "危",
+      "role": "诡秘",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出",
+        "法伤辅助",
+        "进攻辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_075",
+      "name": "昙",
+      "rarity": "普",
+      "role": "诡秘",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "攻速增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_076",
+      "name": "雷比尼斯",
+      "rarity": "普",
+      "role": "诡秘",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "刷新充能",
+        "进攻增幅",
+        "破核"
+      ],
+      "breaker_count": 2,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_077",
+      "name": "柯琳",
+      "rarity": "狂",
+      "role": "精准",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "物伤增幅",
+        "进攻增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_078",
+      "name": "承霄",
+      "rarity": "狂",
+      "role": "精准",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "暴击增幅",
+        "眩晕",
+        "进攻辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_079",
+      "name": "毕安卡",
+      "rarity": "狂",
+      "role": "精准",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "破绽队"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_080",
+      "name": "兰利",
+      "rarity": "狂",
+      "role": "精准",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "攻速增幅",
+        "物理增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_081",
+      "name": "德雷雅",
+      "rarity": "狂",
+      "role": "精准",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "特殊增幅",
+        "特殊辅助",
+        "流血队"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_082",
+      "name": "伊帕希娅",
+      "rarity": "狂",
+      "role": "精准",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出",
+        "召唤物辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_083",
+      "name": "克莱门汀",
+      "rarity": "狂",
+      "role": "精准",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "物伤辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_084",
+      "name": "瑟琳",
+      "rarity": "狂",
+      "role": "精准",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出",
+        "普攻伤害增幅",
+        "进攻增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_085",
+      "name": "珀尔夫人",
+      "rarity": "狂",
+      "role": "精准",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "攻速辅助",
+        "普攻伤害辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_086",
+      "name": "夏音",
+      "rarity": "狂",
+      "role": "精准",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "召唤物增幅",
+        "暴击增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_087",
+      "name": "橡木匣",
+      "rarity": "狂",
+      "role": "精准",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_088",
+      "name": "奥古斯特",
+      "rarity": "狂",
+      "role": "精准",
+      "damage_type": "真实",
+      "tags": [
+        "真实伤害",
+        "真伤辅助",
+        "进攻增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_089",
+      "name": "简",
+      "rarity": "危",
+      "role": "精准",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_090",
+      "name": "狼獾",
+      "rarity": "危",
+      "role": "精准",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "普攻伤害增幅",
+        "物伤辅助",
+        "眩晕",
+        "进攻增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_091",
+      "name": "烟烟",
+      "rarity": "危",
+      "role": "精准",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出",
+        "攻速增幅",
+        "进攻增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_092",
+      "name": "派因",
+      "rarity": "危",
+      "role": "精准",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "暴击增幅",
+        "解除隐匿"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_093",
+      "name": "塔利娅",
+      "rarity": "危",
+      "role": "精准",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "减速",
+        "攻速增幅",
+        "物伤辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_094",
+      "name": "玛蒂尔达",
+      "rarity": "危",
+      "role": "精准",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_095",
+      "name": "荷尔加",
+      "rarity": "危",
+      "role": "精准",
+      "damage_type": "真实",
+      "tags": [
+        "真实伤害"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_096",
+      "name": "皮克赛尔",
+      "rarity": "危",
+      "role": "精准",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "物伤辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_097",
+      "name": "露莉艾卡",
+      "rarity": "危",
+      "role": "精准",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_098",
+      "name": "普希拉",
+      "rarity": "危",
+      "role": "精准",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_099",
+      "name": "F.F.",
+      "rarity": "危",
+      "role": "精准",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "治疗辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_100",
+      "name": "芙洛拉",
+      "rarity": "普",
+      "role": "精准",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "眩晕"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_101",
+      "name": "艾米潘",
+      "rarity": "普",
+      "role": "精准",
+      "damage_type": "物理",
+      "tags": [
+        "物理输出",
+        "刷新充能",
+        "暴击增幅",
+        "进攻增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_102",
+      "name": "观星者",
+      "rarity": "狂",
+      "role": "异能",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出",
+        "召唤物辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_103",
+      "name": "渡鸦",
+      "rarity": "狂",
+      "role": "异能",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出",
+        "法伤辅助",
+        "解除隐匿"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_104",
+      "name": "萦萦",
+      "rarity": "狂",
+      "role": "异能",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出",
+        "减速",
+        "特殊辅助",
+        "法爆队"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_105",
+      "name": "雷温",
+      "rarity": "狂",
+      "role": "异能",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出",
+        "恐惧"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_106",
+      "name": "爱缇",
+      "rarity": "狂",
+      "role": "异能",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出",
+        "技能辅助",
+        "攻速辅助",
+        "法伤辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_107",
+      "name": "伊琳娜",
+      "rarity": "狂",
+      "role": "异能",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出",
+        "局长能量恢复"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_108",
+      "name": "蓝鹫",
+      "rarity": "狂",
+      "role": "异能",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出",
+        "技能辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_109",
+      "name": "希露妲",
+      "rarity": "狂",
+      "role": "异能",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出",
+        "召唤物辅助",
+        "能量恢复"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_110",
+      "name": "来生泪",
+      "rarity": "狂",
+      "role": "异能",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出",
+        "减速",
+        "法伤辅助",
+        "眩晕",
+        "进攻辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_111",
+      "name": "赫斯提亚",
+      "rarity": "狂",
+      "role": "异能",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出",
+        "法伤辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_112",
+      "name": "蜜莉",
+      "rarity": "狂",
+      "role": "异能",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出",
+        "法伤辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_113",
+      "name": "艾瑟默尔",
+      "rarity": "狂",
+      "role": "异能",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出",
+        "攻速增幅",
+        "进攻增幅"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_114",
+      "name": "伊格尼",
+      "rarity": "危",
+      "role": "异能",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_115",
+      "name": "奥利弗",
+      "rarity": "危",
+      "role": "异能",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出",
+        "进攻辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_116",
+      "name": "无患子",
+      "rarity": "危",
+      "role": "异能",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_117",
+      "name": "赫卡蒂",
+      "rarity": "危",
+      "role": "异能",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出",
+        "法伤辅助",
+        "破核"
+      ],
+      "breaker_count": 2,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_118",
+      "name": "拉弥亚",
+      "rarity": "危",
+      "role": "异能",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出",
+        "减速",
+        "进攻辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_119",
+      "name": "露薇娅·蕾",
+      "rarity": "危",
+      "role": "异能",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_120",
+      "name": "艾可",
+      "rarity": "危",
+      "role": "异能",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出",
+        "减速",
+        "法伤辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_121",
+      "name": "萨妮",
+      "rarity": "危",
+      "role": "异能",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_122",
+      "name": "维多利亚",
+      "rarity": "危",
+      "role": "异能",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_123",
+      "name": "天气预报",
+      "rarity": "危",
+      "role": "异能",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出",
+        "减速",
+        "眩晕"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_124",
+      "name": "琼",
+      "rarity": "普",
+      "role": "异能",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出",
+        "法伤辅助",
+        "眩晕"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_125",
+      "name": "开尔文",
+      "rarity": "普",
+      "role": "异能",
+      "damage_type": "法术",
+      "tags": [
+        "法术输出",
+        "冰冻",
+        "减速",
+        "防守辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_126",
+      "name": "芭·菲",
+      "rarity": "狂",
+      "role": "启迪",
+      "damage_type": "物理",
+      "tags": [
+        "物理辅助",
+        "治疗辅助",
+        "特殊辅助",
+        "进攻辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_127",
+      "name": "卡门奈特",
+      "rarity": "狂",
+      "role": "启迪",
+      "damage_type": "法术",
+      "tags": [
+        "法术辅助",
+        "治疗辅助",
+        "进攻辅助",
+        "驱散"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_128",
+      "name": "恩菲尔",
+      "rarity": "狂",
+      "role": "启迪",
+      "damage_type": "法术",
+      "tags": [
+        "法术辅助",
+        "恐惧",
+        "进攻辅助",
+        "破核"
+      ],
+      "breaker_count": 2,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_129",
+      "name": "可可莉克",
+      "rarity": "狂",
+      "role": "启迪",
+      "damage_type": "真实",
+      "tags": [
+        "真实辅助",
+        "治疗辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_130",
+      "name": "伊蕾娅",
+      "rarity": "狂",
+      "role": "启迪",
+      "damage_type": "法术",
+      "tags": [
+        "法术辅助",
+        "净化",
+        "召唤物辅助",
+        "普攻伤害辅助",
+        "法伤辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_131",
+      "name": "耶莱娜",
+      "rarity": "狂",
+      "role": "启迪",
+      "damage_type": "法术",
+      "tags": [
+        "法术辅助",
+        "暴击辅助",
+        "进攻辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_132",
+      "name": "L.L.",
+      "rarity": "狂",
+      "role": "启迪",
+      "damage_type": "真实",
+      "tags": [
+        "真实辅助",
+        "技能伤害辅助",
+        "能量恢复",
+        "进攻辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_133",
+      "name": "源津",
+      "rarity": "狂",
+      "role": "启迪",
+      "damage_type": "无",
+      "tags": [
+        "辅助",
+        "普攻伤害辅助",
+        "治疗辅助",
+        "特殊能量恢复",
+        "进攻辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_134",
+      "name": "哈梅尔",
+      "rarity": "狂",
+      "role": "启迪",
+      "damage_type": "无",
+      "tags": [
+        "治疗辅助",
+        "进攻辅助",
+        "防守辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_135",
+      "name": "杜若",
+      "rarity": "狂",
+      "role": "启迪",
+      "damage_type": "法术",
+      "tags": [
+        "法术辅助",
+        "复活",
+        "治疗辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_136",
+      "name": "霁川",
+      "rarity": "狂",
+      "role": "启迪",
+      "damage_type": "物理",
+      "tags": [
+        "物理辅助",
+        "物伤辅助",
+        "特殊辅助",
+        "能量恢复",
+        "进攻辅助",
+        "防守辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_137",
+      "name": "伊芙",
+      "rarity": "狂",
+      "role": "启迪",
+      "damage_type": "无",
+      "tags": [
+        "辅助",
+        "召唤物辅助",
+        "恐惧",
+        "进攻辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_138",
+      "name": "玛格丽塔",
+      "rarity": "狂",
+      "role": "启迪",
+      "damage_type": "物理",
+      "tags": [
+        "物理辅助",
+        "暴击辅助",
+        "物伤辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_139",
+      "name": "席宁",
+      "rarity": "狂",
+      "role": "启迪",
+      "damage_type": "法术",
+      "tags": [
+        "法术辅助",
+        "攻速辅助",
+        "进攻辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_140",
+      "name": "嘟嘟",
+      "rarity": "危",
+      "role": "启迪",
+      "damage_type": "无",
+      "tags": [
+        "治疗辅助",
+        "进攻辅助",
+        "防守辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_141",
+      "name": "卡兹安",
+      "rarity": "危",
+      "role": "启迪",
+      "damage_type": "法术",
+      "tags": [
+        "法术辅助",
+        "伤害分摊",
+        "复活",
+        "进攻辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_142",
+      "name": "卡西娅",
+      "rarity": "危",
+      "role": "启迪",
+      "damage_type": "法术",
+      "tags": [
+        "法术辅助",
+        "攻速辅助",
+        "治疗辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_143",
+      "name": "安",
+      "rarity": "危",
+      "role": "启迪",
+      "damage_type": "法术",
+      "tags": [
+        "治疗辅助",
+        "致死免疫"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_144",
+      "name": "艾瑞尔",
+      "rarity": "危",
+      "role": "启迪",
+      "damage_type": "法术",
+      "tags": [
+        "治疗辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_145",
+      "name": "泽斐尔",
+      "rarity": "危",
+      "role": "启迪",
+      "damage_type": "法术",
+      "tags": [
+        "法术辅助",
+        "特殊辅助",
+        "防守辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_146",
+      "name": "福伦辛卡",
+      "rarity": "危",
+      "role": "启迪",
+      "damage_type": "无",
+      "tags": [
+        "治疗辅助",
+        "防守辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_147",
+      "name": "肖恩",
+      "rarity": "危",
+      "role": "启迪",
+      "damage_type": "物理",
+      "tags": [
+        "物理辅助",
+        "治疗辅助",
+        "特殊辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_148",
+      "name": "来生爱",
+      "rarity": "危",
+      "role": "启迪",
+      "damage_type": "无",
+      "tags": [
+        "治疗辅助",
+        "进攻辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_149",
+      "name": "卡米利安",
+      "rarity": "危",
+      "role": "启迪",
+      "damage_type": "法术",
+      "tags": [
+        "法术辅助",
+        "攻速辅助",
+        "普攻辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_150",
+      "name": "福克斯先生",
+      "rarity": "危",
+      "role": "启迪",
+      "damage_type": "法术",
+      "tags": [
+        "法术辅助",
+        "控制免疫",
+        "特殊辅助",
+        "进攻辅助",
+        "防守辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_151",
+      "name": "莱塔",
+      "rarity": "危",
+      "role": "启迪",
+      "damage_type": "无",
+      "tags": [
+        "护盾辅助",
+        "治疗辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_152",
+      "name": "玛奇朵",
+      "rarity": "普",
+      "role": "启迪",
+      "damage_type": "法术",
+      "tags": [
+        "法术辅助",
+        "治疗辅助",
+        "防守辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    },
+    {
+      "id": "sinner_153",
+      "name": "丽莎",
+      "rarity": "普",
+      "role": "启迪",
+      "damage_type": "法术",
+      "tags": [
+        "法术辅助",
+        "减速",
+        "进攻辅助"
+      ],
+      "breaker_count": 0,
+      "max_phase": 3,
+      "max_level_per_phase": {
+        "0": 20,
+        "1": 40,
+        "2": 70,
+        "3": 90
+      }
+    }
+  ]
+}

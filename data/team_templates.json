@@ -1,0 +1,39 @@
+{
+  "templates": [
+    {
+      "name": "队伍1",
+      "description": "幽冕·海拉 + 000 核心队",
+      "required": ["幽冕·海拉", "000"],
+      "optional_pool": ["源津", "L.L.", "霁川", "耶莱娜", "诺克斯", "席宁", "摩尔", "玛格丽塔"],
+      "optional_count": 4
+    },
+    {
+      "name": "队伍2",
+      "description": "霁川 + 锈 + 啸风 核心队",
+      "required": ["霁川", "锈", "啸风"],
+      "optional_pool": ["源津", "席宁", "克莱门汀", "耶莱娜", "摩尔", "诺克斯", "玛格丽塔"],
+      "optional_count": 3
+    },
+    {
+      "name": "队伍3",
+      "description": "曜 + 离尘 + 霁川 核心队",
+      "required": ["曜", "离尘", "霁川"],
+      "optional_pool": ["渡鸦", "蜜莉", "L.L.", "蓟", "席宁", "源津"],
+      "optional_count": 3
+    },
+    {
+      "name": "队伍4",
+      "description": "源津 + 毕安卡 + 戈蓝 + 耶莱娜 核心队",
+      "required": ["源津", "毕安卡", "戈蓝", "耶莱娜"],
+      "optional_pool": ["诺克斯", "摩尔", "夏音", "珀尔夫人", "席宁", "000"],
+      "optional_count": 2
+    },
+    {
+      "name": "队伍5",
+      "description": "耶莱娜 + 源津 + 萦萦 + 蓝鹫 + 玉骨 核心队",
+      "required": ["耶莱娜", "源津", "萦萦", "蓝鹫", "玉骨"],
+      "optional_pool": ["渡鸦", "蜜莉", "L.L.", "席宁"],
+      "optional_count": 1
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "狂": {
+    "0_to_1": {"source_essence_t1": 18, "monster_t1": 1, "mat_discoin": 36000},
+    "1_to_2": {"source_essence_t2": 18, "monster_t2": 1, "mat_discoin": 120000},
+    "2_to_3": {"source_essence_t3": 30, "monster_t3": 1, "mat_discoin": 560000}
+  },
+  "危": {
+    "0_to_1": {"source_essence_t1": 15, "monster_t1": 1, "mat_discoin": 30000},
+    "1_to_2": {"source_essence_t2": 15, "monster_t2": 1, "mat_discoin": 100000},
+    "2_to_3": {"source_essence_t3": 25, "monster_t3": 1, "mat_discoin": 480000}
+  },
+  "普": {
+    "0_to_1": {"source_essence_t1": 12, "monster_t1": 1, "mat_discoin": 24000},
+    "1_to_2": {"source_essence_t2": 12, "monster_t2": 1, "mat_discoin": 80000},
+    "2_to_3": {"source_essence_t3": 20, "monster_t3": 1, "mat_discoin": 350000}
+  }
+}
